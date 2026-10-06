@@ -1,0 +1,9 @@
+# robots.txt for Parroquia Nuestra Señora de las Gracias (Onuva)
+# Every page is open, including AI search and user-fetch agents.
+# The wedding pages (bodas.html, en/weddings.html) carry a noindex meta tag on purpose.
+
+User-agent: *
+Allow: /
+
+# AI guide: /llms.txt
+Sitemap: https://parroquiaonuva.pages.dev/sitemap.xml

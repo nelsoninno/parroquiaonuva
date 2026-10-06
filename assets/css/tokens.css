@@ -1,0 +1,32 @@
+/* assets/css/tokens.css
+   Colors + fonts ONLY. The one file to edit to re-skin the whole site.
+   Palette: "Marian blue & ivory", taken from the blue of the parish logo
+   and the white architecture of the temple. See brand/brand.md. */
+:root{
+  /* Brand palette */
+  --bg:        #FAF6EE;   /* warm ivory page background */
+  --surface:   #FFFFFF;   /* cards, header (white like the temple walls) */
+  --sky:       #E6EDF6;   /* soft sky wash for alternate sections */
+  --sky-2:     #CFDCEC;   /* lines and borders on sky sections */
+  --blue:      #1F3A68;   /* deep Marian blue: headings, primary buttons, footer */
+  --blue-2:    #3B5E93;   /* mid blue: links, hover states */
+  --gold:      #B8914A;   /* soft gold: decorative lines and ornaments only */
+  --gold-ink:  #7E5F24;   /* darker gold, safe for small text on ivory */
+  --leaf:      #4D6B45;   /* garden green: tiny status accents only */
+  --ink:       #1C2230;   /* main text */
+  --muted:     #5A6272;   /* secondary text */
+  --line:      #E7DFCF;   /* hairlines on ivory */
+
+  /* Footer + EKY credit colors (read by the EKY credit logo) */
+  --footer-bg: var(--blue);
+  --footer-fg: #F4EFE4;
+
+  /* Fonts */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body:    'Mulish', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --max: 1160px;
+  --radius: 18px;
+  --shadow: 0 18px 40px -22px rgba(31,58,104,.35);
+}
