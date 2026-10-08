@@ -28,5 +28,5 @@ A Catholic parish dedicated to Nuestra Señora de las Gracias (Our Lady of Grace
 - [Website (ES)](https://parroquiaonuva.pages.dev/)
 - [Website (EN)](https://parroquiaonuva.pages.dev/en/)
 - [WhatsApp](https://wa.me/50360281718)
-- [Directions](https://www.google.com/maps/search/?api=1&query=Parroquia%20Nuestra%20Se%C3%B1ora%20de%20las%20Gracias%20Onuva%20Santa%20Tecla)
+- [Directions](https://www.google.com/maps/search/?api=1&query=Parroquia%20Nuestra%20Se%C3%B1ora%20de%20las%20Gracias%20Onuva%20Santa%20Tecla&query_place_id=ChIJNTNGV6gvY48R6ByUzG1daOA)
 - [Full content](https://parroquiaonuva.pages.dev/llms-full.txt)

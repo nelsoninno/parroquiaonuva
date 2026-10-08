@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://parroquiaonuva.pages.dev/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://parroquiaonuva.pages.dev/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://parroquiaonuva.pages.dev/"/>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,19 +15,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://parroquiaonuva.pages.dev/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://parroquiaonuva.pages.dev/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://parroquiaonuva.pages.dev/"/>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://parroquiaonuva.pages.dev/llms.txt</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://parroquiaonuva.pages.dev/llms-full.txt</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
