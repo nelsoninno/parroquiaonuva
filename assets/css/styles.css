@@ -187,7 +187,7 @@ strong{font-weight:700}
 .band p{opacity:.9;margin-top:.4rem}
 
 /* Getting-here bar (under Mass times) */
-.go-bar{margin-top:1.4rem;background:var(--surface);border:1px solid var(--gold);border-radius:var(--radius);padding:1.5rem 1.6rem;display:flex;align-items:center;justify-content:space-between;gap:1.2rem 2rem;flex-wrap:wrap}
+.go-bar{margin-top:2rem;background:var(--surface);border:1px solid var(--gold);border-radius:var(--radius);padding:1.5rem 1.6rem;display:flex;align-items:center;justify-content:space-between;gap:1.2rem 2rem;flex-wrap:wrap}
 .go-text h3{font-size:1.5rem;margin:.35rem 0 .2rem}
 .go-text p{color:var(--muted);font-size:.95rem}
 .go-btns{display:flex;flex-wrap:wrap;gap:.7rem}
