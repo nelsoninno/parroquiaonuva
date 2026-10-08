@@ -186,6 +186,13 @@ strong{font-weight:700}
 .band h2{color:var(--surface);font-size:clamp(1.8rem,3.4vw,2.5rem)}
 .band p{opacity:.9;margin-top:.4rem}
 
+/* Getting-here bar (under Mass times) */
+.go-bar{margin-top:1.4rem;background:var(--surface);border:1px solid var(--gold);border-radius:var(--radius);padding:1.5rem 1.6rem;display:flex;align-items:center;justify-content:space-between;gap:1.2rem 2rem;flex-wrap:wrap}
+.go-text h3{font-size:1.5rem;margin:.35rem 0 .2rem}
+.go-text p{color:var(--muted);font-size:.95rem}
+.go-btns{display:flex;flex-wrap:wrap;gap:.7rem}
+@media (max-width:560px){.go-bar{padding:1.3rem 1.1rem}.go-btns{width:100%}.go-btns .btn{width:100%;justify-content:center}}
+
 /* ---------- Footer ---------- */
 .site-footer{background:var(--footer-bg);color:var(--footer-fg);padding:4rem 0 2rem;margin-top:clamp(4rem,8vw,6rem)}
 .site-footer a{color:var(--footer-fg)}
