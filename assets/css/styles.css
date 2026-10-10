@@ -76,17 +76,19 @@ strong{font-weight:700}
 .hero .lead strong{color:var(--ink);font-weight:700}
 
 .gable-figure{position:relative;margin:0 auto;max-width:540px;width:100%;isolation:isolate}
-.gable-line{position:absolute;left:20px;top:-18px;width:100%;height:100%;pointer-events:none;z-index:-1;overflow:visible;color:var(--gold)}
+.gable-line{position:absolute;left:20px;top:-18px;width:100%;height:auto;aspect-ratio:4/4.3;pointer-events:none;z-index:-1;overflow:visible;color:var(--gold)}
 .gable-line polygon{fill:none;stroke:currentColor;stroke-width:1.5;opacity:.8}
 .gable{clip-path:polygon(50% 0,100% 24%,100% 100%,0 100%,0 24%);aspect-ratio:4/4.3;overflow:hidden;background:var(--sky)}
 .gable img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
 .arch{border-radius:999px 999px var(--radius) var(--radius);overflow:hidden;background:var(--sky)}
 .arch img{width:100%;height:100%;object-fit:cover}
 
-.today{position:absolute;left:-1.6rem;bottom:1.6rem;background:var(--surface);border-radius:16px;padding:1rem 1.2rem 1.05rem;box-shadow:var(--shadow);max-width:285px;border:1px solid var(--line)}
+.today{position:relative;z-index:2;width:min(92%,470px);margin:-2.6rem auto 0;background:var(--surface);border-radius:16px;padding:1rem 1.3rem 1.05rem;box-shadow:var(--shadow);border:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:.1rem 1.6rem;align-items:start}
+.today-label,.today .today-office{grid-column:1 / -1}
 .today-label{display:flex;align-items:center;gap:.5rem;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--gold-ink)}
 .today-label i{width:8px;height:8px;border-radius:50%;background:var(--leaf);box-shadow:0 0 0 4px color-mix(in srgb,var(--leaf) 20%,transparent)}
-.today-day{font-family:var(--font-display);font-size:1.45rem;color:var(--blue);font-weight:600;margin:.25rem 0 .35rem;text-transform:capitalize}
+.today-day{font-family:var(--font-display);font-size:1.45rem;color:var(--blue);font-weight:600;margin:.25rem 0 0;text-transform:capitalize}
+.today ul{margin-top:.35rem}
 .today ul{list-style:none;font-size:.92rem}
 .today li{display:flex;gap:.55rem;padding:.12rem 0}
 .today li b{color:var(--blue);min-width:4.9rem;font-weight:700}
@@ -297,7 +299,6 @@ strong{font-weight:700}
   .hero-grid,.about,.contact,.two-col{grid-template-columns:1fr}
   .hero-visual{order:-1}
   .gable-figure{max-width:440px}
-  .today{left:auto;right:-.4rem;bottom:-1.2rem}
   .spaces{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}
   .gallery figure.wide{grid-column:span 2}
@@ -312,7 +313,8 @@ strong{font-weight:700}
   .nav{min-height:66px}
   .schedule,.sacraments{grid-template-columns:1fr}
   .gable-figure{max-width:none;padding:0 .6rem}
-  .today{position:relative;left:auto;right:auto;bottom:auto;max-width:none;margin:-3.2rem 1rem 0;z-index:2}
+  .today{width:calc(100% - 2rem);margin-top:-2.2rem;grid-template-columns:1fr}
+  .today ul{margin-top:.2rem}
   .gallery{grid-auto-rows:150px}
   .gallery figure.tall{grid-row:span 2}
   .foot-grid{grid-template-columns:1fr}
