@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 # AI guide: /llms.txt
-Sitemap: https://parroquiaonuva.pages.dev/sitemap.xml
+Sitemap: https://parroquiaonuva.org/sitemap.xml
